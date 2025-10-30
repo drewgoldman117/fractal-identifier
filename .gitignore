@@ -1,14 +1,20 @@
-data/
-models/
+# Ignore system files
+.DS_Store
+
+# Ignore compiled Python files
 __pycache__/
+*.pyc
+
+# Ignore large/binary data files
 *.pt
 *.png
 *.csv
-.DS_Store
-# allow placeholder files so folders show up
-!data/.gitkeep
-!models/.gitkeep
 
-# allow placeholder files so folders show up
+# Ignore folders, but allow .gitkeep
+data/*
+models/*
+code/__pycache__/*
+
 !data/.gitkeep
 !models/.gitkeep
+!code/.gitkeep
