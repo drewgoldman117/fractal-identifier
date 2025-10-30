@@ -5,3 +5,10 @@ __pycache__/
 *.png
 *.csv
 .DS_Store
+# allow placeholder files so folders show up
+!data/.gitkeep
+!models/.gitkeep
+
+# allow placeholder files so folders show up
+!data/.gitkeep
+!models/.gitkeep
